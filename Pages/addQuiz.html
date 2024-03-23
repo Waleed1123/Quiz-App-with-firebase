@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adding Quiz</title>
+    <link rel="stylesheet" href="./addQuiz.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <h1>Quiz Application + Firebase</h1>
+        <button
+          onclick="window.location.assign('../index.html')"
+          class="addQuizBtn"
+        >
+          Attend Quiz!
+        </button>
+      </div>
+      <div class="addQuiz-parent">
+        <input type="text" id="question" placeholder="Add Question Here" />
+
+        <input
+          type="text"
+          name=""
+          placeholder="Add Options Here"
+          id="optionsInput"
+        />
+        <button onclick="addOptions()" id="addOptionsBtn">Add Options</button>
+
+        <ol id="options-parent"></ol>
+
+        <p id="correctAns">Correct Answer</p>
+
+        <button onclick="submitQuestion()" id="submit">Submit Question</button>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="./addQuiz.js"></script>
+   <!-- <script src="sweetalert2.min.js"></script> -->
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</html>
