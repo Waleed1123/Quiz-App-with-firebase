@@ -7,6 +7,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-database.js";
 
 // Your web app's Firebase configuration
+
 const firebaseConfig = {
   apiKey: "AIzaSyC0MTdpR3Z0Rs6wFtrFGI02iX61fh2EOT4",
   authDomain: "quiz-application-2bd1c.firebaseapp.com",
@@ -15,7 +16,6 @@ const firebaseConfig = {
   messagingSenderId: "225703172959",
   appId: "1:225703172959:web:9a1f38fd4fd04b3afc34ea",
 };
-
 
 
 
